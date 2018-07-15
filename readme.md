@@ -27,8 +27,6 @@ git clone https://github.com/tcreuro/zero.git
 
 cd zero
 
-chmod +x setup.sh
-
 ./setup.sh
 ```
 
@@ -36,8 +34,6 @@ chmod +x setup.sh
 
 ```bash
 cd ~/zero
-
-chmod +x npm.sh
 
 ./npm.sh
 ```
@@ -55,6 +51,8 @@ sudo raspi-config
 [tensorflow js](https://js.tensorflow.org/)
 
 [npm @agilatech/tsl2561](https://www.npmjs.com/package/@agilatech/tsl2561)
+
+[tsl2561](http://www.raspberryconnect.com/hardware-add-ons/item/324-tsl2561-luminosity-sensor-ir-and-visible-light)
 
 [pi download - raspian stretch lite](https://www.raspberrypi.org/downloads/raspbian/)
 

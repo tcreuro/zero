@@ -1,4 +1,4 @@
-console.info("setting up tsl2561. attempting tsl2561 connect to /dev/i2c-1 0x39")
+console.info("connecting to tsl2561 on /dev/i2c-1 0x39")
 
 //load the module and create an instance
 const addon = require('@agilatech/tsl2561');
@@ -20,12 +20,12 @@ const paramName0 = tsl2561.nameAtIndex(0);
 const paramType0 = tsl2561.typeAtIndex(0);
 const paramVal0 = tsl2561.valueAtIndexSync(0);
 
-// asynchronous value collection is also available
+// asynchronous value collection
 tsl2561.valueAtIndex(0, function (err, val) {
     if (err) {
        console.log(err);
     }
     else {
-        console.log(`Asynchronous call return: ${val}`);
+        console.log(`index value: ${val}`);
     }
 });

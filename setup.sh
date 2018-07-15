@@ -22,6 +22,3 @@ nvm --version
 
 # install node
 nvm install 10.6.0
-
-# set 
-nvm use 10.6.0
